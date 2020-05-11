@@ -1,4 +1,10 @@
+```html
+<button>Click me</button>
+```
+
 ```ts
+const button = document.querySelector('button');
+
 const observer = {
   next(value: any) {
     console.log(value);
@@ -11,13 +17,19 @@ const observer = {
   }
 };
 
-const observableExample = new Observable(observer => {
-  observer.next(1);
-  observer.next(2);
-  observer.next(3);
-  setTimeout(() => {
-    observer.next(4);
-    observer.complete();
-  }, 1000);
-});
+//Rx.Observable.fromEvent(button, 'click')
+const subscription = Rx.Observable.create((obs) => {
+  //obs.next('A value');
+  //obs.error('Error');
+  //setTimeout(function() {
+  //  obs.complete();
+  //  obs.next('A second value');
+  //}, 2000);
+  button.onclick = function(event) {
+    obs.next(event);
+  }
+})
+  .subscribe(observer);
+  
+setTimeout(() => subscription.unsubscribe(), 5000);
 ```
