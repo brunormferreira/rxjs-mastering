@@ -9,7 +9,7 @@
 - [Idea](#idea)
 - [Used Technologies](#used-technologies)
 - [Install Packages](#install-packages)
-- [Choose a File to Run](#choose-a-file-to-run)
+- [Choosing a File to Run](#choosing-a-file-to-run)
 - [Running Project](#running-project)
 - [Notes folder](#notes-folder)
 - [Mind map about RxJS](#mind-map-about-rxjs)
@@ -35,11 +35,11 @@
   $ npm install
   ```
 
-## Choose a file to run
+## Choosing a file to run
 
-  ```
-  open `/src` folder and rename the file that you want to `index.ts`
-  ```
+  - Open `webpack.config.js` file in root folder;
+  - Rename the `entry` property `value` inside of module.exports object to the name of the file that you want to run in `/src` folder;
+  - Re-run the application to changes make effect.
 
 ## Running project
 
