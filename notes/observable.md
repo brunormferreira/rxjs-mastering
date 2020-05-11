@@ -1,3 +1,9 @@
+## Link to read and understand
+
+- [FreeCodeCamp article](https://www.freecodecamp.org/news/what-are-observables-how-they-are-different-from-promises/).
+
+## Code example
+
 ```html
 <button>Click me</button>
 ```
