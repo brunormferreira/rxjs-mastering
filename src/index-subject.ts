@@ -1,27 +1,27 @@
 import { Subject } from 'rxjs';
 
-import { renderItems } from '../config/utils/util';
+import { logValues } from '../config/utils/util';
 
 const subject = new Subject();
 
 subject.subscribe({
   next(value) {
-    renderItems(value)
+    logValues(value)
     console.log(value);
   },
   error(error) {
-    renderItems(error)
+    logValues(error)
     console.log(error);
   },
   complete() {
-    renderItems('Completed')
+    logValues('Completed')
     console.log('Complete');
   }
 });
 
 subject.subscribe({
   next(value) {
-    renderItems(value)
+    logValues(value)
     console.log(value);
   }
 });

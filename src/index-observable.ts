@@ -1,6 +1,6 @@
 import { Observable } from 'rxjs';
 
-import { renderItems } from '../config/utils/util';
+import { logValues } from '../config/utils/util';
 
 const observable = Observable.create((observer: any) => {
   observer.next('Hello World!');
@@ -10,9 +10,9 @@ const observable = Observable.create((observer: any) => {
 })
 
 const subscription = observable.subscribe(
-  (param: any) => renderItems(param),
-  (error: any) => renderItems('Error: ' + error),
-  () => renderItems('Completed')
+  (param: any) => logValues(param),
+  (error: any) => logValues('Error: ' + error),
+  () => logValues('Completed')
 );
 
 setTimeout(() => {

@@ -1,6 +1,6 @@
 const list = document.getElementById('list')
 
-const renderItems = (value: any) => {
+const logValues = (value: any) => {
   const node = document.createElement('li');
   const textNode = document.createTextNode(value);
   node.appendChild(textNode);
@@ -8,5 +8,5 @@ const renderItems = (value: any) => {
 }
 
 export {
-  renderItems,
+  logValues,
 }

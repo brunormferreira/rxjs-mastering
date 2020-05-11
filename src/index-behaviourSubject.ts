@@ -1,19 +1,19 @@
 import { BehaviorSubject } from 'rxjs';
 
-import { renderItems } from '../config/utils/util';
+import { logValues } from '../config/utils/util';
 
 const subject = new BehaviorSubject(123);
 
 // two new subscribers will get initial value => output: 123, 123
 subject.subscribe({
   next(value) {
-    renderItems(value);
+    logValues(value);
     console.log(value);
   }
 });
 subject.subscribe({
   next(value) {
-    renderItems(value);
+    logValues(value);
     console.log(value);
   }
 });
@@ -24,7 +24,7 @@ subject.next(456);
 // new subscriber will get latest value (456) => output: 456
 subject.subscribe({
   next(value) {
-    renderItems(value);
+    logValues(value);
     console.log(value);
   }
 });

@@ -1,10 +1,10 @@
-import { renderItems } from '../config/utils/util';
+import { logValues } from '../config/utils/util';
 
 const hello = () => {
-  renderItems(
+  logValues(
     'Be welcome to the RxJS study ambient'
   );
-  renderItems(
+  logValues(
     `open 'webpack.config.js' file and rename the 'entry'
     property value inside of module.exports object to the
     name of the file that you want to run in '/src' folder.`
