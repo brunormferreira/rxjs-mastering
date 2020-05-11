@@ -8,11 +8,15 @@ const observable = Observable.create((observer: any) => {
   observer.next('Bye');
 })
 
-observable.subscribe(
+const subscription = observable.subscribe(
   (param: any) => logItem(param),
   (error: any) => logItem('Error: ' + error),
   () => logItem('Completed')
 );
+
+setTimeout(() => {
+  subscription.unsubscribe();
+}, 2000);
 
 function logItem(value: any) {
   const node = document.createElement('li');

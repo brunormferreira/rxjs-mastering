@@ -21,7 +21,7 @@
 ## To do
 
   ```
-  1. Subscription;
+  1. Subscription [ok];
   2. BehaviourSubject;
   3. Subjects;
   4. switchMap;
