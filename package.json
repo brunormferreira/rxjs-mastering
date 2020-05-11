@@ -1,0 +1,22 @@
+{
+  "name": "rxjs-mastering",
+  "version": "1.0.0",
+  "description": "reactive programming with rxjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunormferreira/rxjs-mastering.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunormferreira/rxjs-mastering/issues"
+  },
+  "homepage": "https://github.com/brunormferreira/rxjs-mastering#readme",
+  "dependencies": {
+    "rxjs": "^6.5.5"
+  }
+}
