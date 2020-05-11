@@ -4,6 +4,18 @@
 
 <hr/>
 
+## Table of Contents
+
+- [Idea](#idea)
+- [Used Technologies](#used-technologies)
+- [Install Packages](#install-packages)
+- [Choose a File to Run](#choose-a-file-to-run)
+- [Running Project](#running-project)
+- [Notes folder](#notes-folder)
+- [Mind map about RxJS](#mind-map-about-rxjs)
+- [To do](#to-do)
+- [Author](#author)
+
 ## Idea
 
 - The idea is make a RxJS ambient to study and test their features.
@@ -35,6 +47,14 @@
   $ npm start 
   ```
 
+## Notes folder
+
+- Some little and fast code examples to consult.
+
+## Mind map about RxJS
+
+<img src="https://miro.medium.com/max/1400/1*HeOwc9fteR4oiVheE7qnAg.png">
+
 ## To do
 
   ```
@@ -45,7 +65,11 @@
   5. and More
   ```
 
+## Author
 
-## Mind map about RxJS
+* **Bruno Ramires de Moraes Ferreira** -  [GitHub](https://github.com/brunormferreira)
 
-<img src="https://miro.medium.com/max/1400/1*HeOwc9fteR4oiVheE7qnAg.png">
+  <a href="https://github.com/brunormferreira">
+    <img 
+    alt="Imagem do Autor Bruno Ramires" src="https://avatars0.githubusercontent.com/u/35575092?s=460&v=4" width="100">
+  </a>
