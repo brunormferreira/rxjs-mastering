@@ -22,7 +22,7 @@
 
   ```
   1. Subscription;
-  2. BehaviorSubject;
+  2. BehaviourSubject;
   3. Subjects;
   4. switchMap;
   5. and More
