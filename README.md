@@ -59,8 +59,8 @@
 
   ```
   1. Subscription [ok];
-  2. BehaviourSubject;
-  3. Subjects;
+  2. BehaviourSubject [ok];
+  3. Subjects [ok];
   4. switchMap [more examples];
   5. and More
   ```
