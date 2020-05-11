@@ -2,6 +2,12 @@
 
 - Reactive programming with [RxJS](https://rxjs.dev/).
 
+<hr/>
+
+## Idea
+
+- The idea is make a RxJS ambient to study and test their features.
+
 ## Used technologies
 
   ```
@@ -11,10 +17,21 @@
   NPM.
   ```
 
-## Install packages and Running project
+## Install packages
 
   ```
   $ npm install
+  ```
+
+## Choose a file to run
+
+  ```
+  open `/src` folder and rename the file that you want to `index.ts`
+  ```
+
+## Running project
+
+  ```
   $ npm start 
   ```
 
