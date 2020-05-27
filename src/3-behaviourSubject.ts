@@ -1,6 +1,6 @@
 import { BehaviorSubject } from 'rxjs';
 
-import { logValues } from '../config/utils/util';
+import { logValues } from '../utils/util';
 
 const subject = new BehaviorSubject(123);
 

@@ -1,6 +1,6 @@
 import { Observable } from 'rxjs';
 
-import { logValues } from '../config/utils/util';
+import { logValues } from '../utils/util';
 
 const observable = Observable.create((observer: any) => {
   observer.next('Hello World!');

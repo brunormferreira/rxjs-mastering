@@ -21,4 +21,15 @@ observable.subscribe(subject); // You can subscribe providing a Subject
 // observerB: 2
 // observerA: 3
 // observerB: 3
+
+// =========== Another example ===========
+
+const subject = new Subject();
+
+subject.subscribe(console.log);
+
+subject.next('Hello');
+subject.next('World');
+
+subject.subscribe(console.log); // Does not emit
 ```

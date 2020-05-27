@@ -2,6 +2,11 @@
 
 - Reactive programming with [RxJS](https://rxjs.dev/).
 
+## What is RxJS?
+
+- RxJS is a library for reactive programming using observables that makes
+it easier to compose asynchronous or callback-based code.
+
 <hr/>
 
 ## Table of Contents
@@ -20,6 +25,10 @@
 
 - The idea is make a RxJS ambient to study and test their features.
 
+## Editor configs
+
+- This project use `.editorconfig` and `.prettierrc` configurations.
+
 ## Used technologies
 
   ```
@@ -37,9 +46,8 @@
 
 ## Choosing a file to run
 
-  - Open `webpack.config.js` file in root folder;
-  - Rename the `entry` property `value` inside of module.exports object to the name of the file that you want to run in `/src` folder;
-  - Re-run the application to changes make effect.
+  - Uncomment the import that you want to run inside `/src` folder on `index.ts` file;
+  - Run the application to changes make effect.
 
 ## Running project
 
@@ -61,8 +69,9 @@
   1. Subscription [ok];
   2. BehaviourSubject [ok];
   3. Subjects [ok];
-  4. switchMap [more examples];
-  5. and More
+  4. switchMap [ok];
+  5. more operators;
+  6. and more :D
   ```
 
 ## Author

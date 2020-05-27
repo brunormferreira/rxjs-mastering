@@ -27,4 +27,14 @@ button.addEventListener('click', () => clickEmitted.next('Clicked!'));
 clickEmitted.subscribe(
   (value) => div.textContent = value
 );
+
+// =========== Another example ===========
+
+const bs = new BehaviorSubject('Hola');
+
+bs.subscribe(console.log);
+
+bs.next('Mundo');
+
+bs.subscribe(console.log); // Emits last value
 ```
