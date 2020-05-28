@@ -7,11 +7,10 @@
 - RxJS is a library for reactive programming using observables that makes
 it easier to compose asynchronous or callback-based code.
 
-<hr/>
-
 ## Table of Contents
 
 - [Idea](#idea)
+- [Editor Configs](#editor-configs)
 - [Used Technologies](#used-technologies)
 - [Install Packages](#install-packages)
 - [Choosing a File to Run](#choosing-a-file-to-run)
