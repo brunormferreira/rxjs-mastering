@@ -1,4 +1,4 @@
-const list = document.getElementById('list')
+const list = document.getElementById('list');
 
 const logValues = (value: any) => {
   const node = document.createElement('li');
