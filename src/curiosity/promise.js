@@ -14,9 +14,9 @@ const withdraw = (value) => {
 }
 
 withdraw(90)
-  .then((r) => alert('success: ' + r))
-  .catch((e) => alert('error: ' + e))
+  .then((r) => console.log('success: ' + r))
+  .catch((e) => console.log('error: ' + e))
 
 withdraw(11)
-  .then((r) => alert('success: ' + r))
-  .catch((e) => alert('error: ' + e))
+  .then((r) => console.log('success: ' + r))
+  .catch((e) => console.log('error: ' + e))

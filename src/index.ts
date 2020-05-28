@@ -5,7 +5,8 @@ import './hello';
 // import './4-operators';
 // import './5-switchMap';
 
-//========== to talk
+//========== study purpose
+
 // import './curiosity/promise';
 // import './curiosity/observable';
 // import './curiosity/promiseXobservable';

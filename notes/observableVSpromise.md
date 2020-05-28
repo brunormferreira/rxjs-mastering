@@ -1,4 +1,4 @@
-# Promise(sync) VS Observable(async/sync)
+# Promise VS Observable
 
 `Promise`
 

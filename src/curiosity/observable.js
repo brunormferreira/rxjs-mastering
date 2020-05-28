@@ -32,7 +32,6 @@ const subscriptionError = withdraw(11)
     // () => console.log('Completed')
   );
 
-
 setTimeout(() => {
   subscription.unsubscribe();
   subscriptionError.unsubscribe();
