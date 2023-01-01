@@ -19,12 +19,12 @@
   "homepage": "https://github.com/brunormferreira/rxjs-mastering#readme",
   "dependencies": {
     "rxjs": "^6.5.5",
-    "ts-loader": "^7.0.3",
+    "ts-loader": "^9.4.2",
     "typescript": "^3.8.3",
-    "webpack": "^4.43.0",
+    "webpack": "^5.75.0",
     "webpack-dev-server": "^3.11.0"
   },
   "devDependencies": {
-    "webpack-cli": "^3.3.11"
+    "webpack-cli": "^5.0.1"
   }
 }
